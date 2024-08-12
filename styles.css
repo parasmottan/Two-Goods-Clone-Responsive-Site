@@ -1,0 +1,595 @@
+@font-face {
+  font-family: havifont;
+  src: url(HelveticaNowText-Regular.ttf);
+}
+
+
+
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gileroy;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+
+}
+
+*::selection {
+
+  color: #fff;
+  background-color: black;
+
+}
+
+body{
+  background-color: #F7F7F7;
+
+
+}
+
+#onclickpage{
+  position: absolute;
+height: 100vh;
+width: 100vw;
+background-color: black;
+/* display: none; */
+z-index:1;
+top:-100vh;
+
+
+}
+
+#Onclickcomponents{
+position: relative;
+ /* height: 100%; */
+width: 30%;
+position: absolute;
+
+/* height: 100%;
+width: 100%; */
+right:0;
+/* background-color: #F7F7F7; */
+bottom: 0;
+text-align: end;
+padding: 18px 20px;
+}
+
+
+
+#Onclickcomponents a{
+text-decoration: none;
+color: #fff;
+font-family: futura;
+font-size: 3.5vw;
+text-align: justify;
+line-height: 3.5vw;
+
+
+
+}
+
+
+
+
+#nav{
+/* height: 100px; */
+width: 100%;
+/* background-color: #333; */
+position: fixed;
+z-index: 13;
+padding: 25px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+#nav-part1{
+
+/* background-color: #333; */
+height: 82px;
+overflow: hidden;
+
+}
+
+#nav-part1 svg{
+display: block;
+
+
+
+}
+
+
+#nav #nav-part2{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;
+margin-top: -10px;
+}
+
+#links{
+padding:3px;
+
+
+}
+
+#nav-part2 #links a{
+text-transform: uppercase;
+text-decoration: none;
+color: #333;
+font-weight: 500;
+font-size: 13px;
+margin: 0 30px;
+font-family: havifont;
+
+}
+
+#nav-part2 #icons i{
+
+font-size: 18px;
+margin: 0 20px;
+font-weight: 100;
+
+}
+
+#icons{
+z-index: 0;
+padding: 10px;
+border-radius: 50px;
+background-color: #F7F7F7;
+
+}
+
+
+#cursor{
+
+height: 250px;
+width: 250px;
+border-radius: 50%;
+position: fixed;
+background-color: rgba(169, 169, 169, 0.381);
+transform: translate(-50%, -50%) scale(0);
+
+}
+
+
+#page1 {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  padding: 0px 1vw;
+  padding-top: 30vh;
+
+
+
+}
+
+#page1 h1 {
+  letter-spacing: -8px;
+  font-size: 15.7vw;
+  font-family: futura;
+  line-height: 13vw;
+}
+
+
+#video-container {
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+  margin-top: 1vw;
+
+}
+
+
+#video-container video {
+z-index: 7;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
+#video-container #play {
+
+  padding: 3vw 2vw;
+  background-color: black;
+  color: #fff;
+  font-size: 1.3vw;
+  position: fixed;
+  text-transform: uppercase;
+  font-family: futura;
+  border-radius: 50%;
+  opacity: 0;
+  scale: 0;
+}
+
+
+#page2 {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 3vw 2vw;
+  justify-content: space-between;
+  margin-top: 720px;
+}
+
+
+#page2 .elem {
+position: relative;
+  height: 100%;
+  width: 30%;
+  /* background-color: cadetblue; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#page2 .elem img {
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  scale: 1.1;
+}
+
+#page2 .elem .dets{
+border-radius: 50px;
+height: 55px;
+width: 70%;
+position: absolute;
+z-index: 9;
+/* top: 50%;
+left: 50%;
+transform: translate(-50%,-50%); */
+background-color: #f5dfcf;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+transition: height 0.3s ease;
+overflow:hidden;
+margin-bottom: 0;
+}
+
+#page2 .elem .dets:hover{
+
+  height: 200px;
+
+
+}
+
+#page2 .elem .dets span{
+
+  font-family:havifont ;
+font-size: 12px;
+
+}
+
+#page2 .elem .dets #sp2{
+
+font-weight: 600;
+
+
+}
+
+#DivTxt{
+  font-family: futura;
+  text-transform: uppercase;
+  font-size: 3.8vw;
+  width: 60%;
+  line-height: 3.5vw;
+  padding: 16px 60px;
+  position: relative;
+  left: -34px;
+top: 12px;
+}
+
+#textdiv{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+#textdiv p{
+margin-right: 9vw;
+font-family: havifont;
+width: 23%;
+line-height: 1.5vw;
+margin-top: 4vw;
+}
+
+#textdiv p a{
+
+/* text-decoration: none; */
+color: #333;
+font-family: havifont;
+font-size: 13px;
+
+}
+
+#page3{
+
+min-height: 120vh;
+width: 100%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 130px;
+
+}
+
+.child{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 54vh;
+width: 38vw;
+/* background-color: crimson; */
+/* border: 2px solid #000; */
+}
+
+.child img{
+
+height: 100%;
+
+
+}
+
+
+
+@media (max-width:600px) {
+
+  #page1 {
+    min-height: 70vh;
+    width: 100%;
+    padding: 0 3vw;
+    padding-top: 23vh;
+
+  }
+
+
+
+  #page1 h1 {
+
+    font-size: 15vw;
+    line-height: 14vw;
+    letter-spacing: -3px;
+
+  }
+
+  #video-container {
+    height: 25vh;
+    margin-top: 3vw;
+  }
+
+  #video-container #play {
+
+    padding: 9.5vw 7.2vw;
+    font-size: 4.5vw;
+    position: fixed;
+    text-transform: uppercase;
+    font-family: futura;
+    border-radius: 50%;
+    opacity: 1;
+    scale: 1;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+  }
+
+  #page2 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5vw 3vw;
+    justify-content: space-between;
+    margin-top: 720px;
+    flex-direction: column;
+  }
+
+
+  #page2 .elem {
+
+    height: 100vh;
+    width: 100%;
+    /* background-color: cadetblue; */
+    overflow: hidden;
+    margin-bottom: 242vw;
+    margin-top: -1027px;
+  }
+
+
+  #page2 .elem img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+  }
+
+  #page2 .elem .dets{
+    border-radius: 50px;
+    height: 40px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    background-color: palegoldenrod;
+    
+    }
+
+    #nav{
+      /* height: 100px; */
+      width: 100%;
+      /* background-color: #333; */
+      position: fixed;
+      z-index: 13;
+      /* padding: 15px; */
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      }
+      
+      #nav-part1{
+      
+      /* background-color: #333; */
+      height: 62px;
+      overflow: hidden;
+      
+      }
+      
+      #nav-part1 svg{
+      display: block;
+      height: 63px;
+      width: 80px;
+      
+      }
+      
+      
+      #nav #nav-part2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      margin-top: -10px;
+      }
+      
+      #links{
+      padding:3px;
+      display: none;
+      
+      }
+      
+    
+      
+      #nav-part2 #icons i{
+      
+      font-size: 18px;
+      margin: 0 20px;
+      font-weight: 100;
+      
+      }
+      
+      #icons{
+      
+      padding: 15px;
+      border-radius: 50px;
+      background-color: #F7F7F7;
+      
+      }
+
+#nav #twogood2{
+
+margin-left: -20px;
+height: 40px;
+
+}
+
+#page3{
+margin-top: -614px;
+min-height:65vh;
+width: 100%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.child{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 20vh;
+width: 38vw;
+/* background-color: crimson; */
+/* border: 2px solid #000; */
+}
+
+.child img{
+
+height: 100%;
+
+
+}
+#textdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: -968px;
+}
+
+
+#DivTxt{
+  font-family: futura;
+  text-transform: uppercase;
+  font-size: 32px;
+  width: 102%;
+  line-height: 7.5vw;
+  padding: 0px 1px;
+  position: absolute;
+  left: -1px;
+  top: -53px;
+  text-align: center;
+  
+}
+#textdiv p {
+  margin-right: 11vw;
+  font-family: havifont;
+  width: 93%;
+  line-height: 4.5vw;
+  margin-top: 4vw;
+  position: absolute;
+  top: 62px;
+  left: 14px;
+  text-align: center;
+}
+#Onclickcomponents {
+ 
+  width: 40%;
+ 
+  bottom: 10px;
+  text-align: start;
+  padding: 156px 7px;
+  position: absolute;
+  right: 254px;
+}
+#Onclickcomponents a {
+  text-decoration: none;
+  color: #fff;
+  font-family: futura;
+  font-size: 10.5vw;
+  text-align: justify;
+  line-height: 12.5vw;
+}
+
+
+
+}
