@@ -416,7 +416,7 @@ height: 100%;
     width: 100%;
     /* background-color: cadetblue; */
     overflow: hidden;
-    margin-bottom: 301vw;
+    margin-bottom: 260vw;
     margin-top: -958px;
   }
 
@@ -569,14 +569,12 @@ height: 100%;
   font-size: 12px;
 }
 #Onclickcomponents {
- 
   width: 40%;
- 
   bottom: 10px;
   text-align: start;
-  padding: 156px 7px;
+  padding: 45px 7px;
   position: absolute;
-  right: 254px;
+  right: 225px;
 }
 #Onclickcomponents a {
   text-decoration: none;
@@ -591,11 +589,8 @@ height: 100%;
   font-family: futura;
   font-size: 7px;
   position: absolute;
-  
-  bottom: -2700px;
-  left: 93px;
-
-
+  bottom: -3075px;
+  left: 119px;
 
 }
 
