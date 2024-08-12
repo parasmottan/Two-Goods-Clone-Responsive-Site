@@ -420,8 +420,8 @@ height: 100%;
     width: 100%;
     /* background-color: cadetblue; */
     overflow: hidden;
-    margin-bottom: 306vw;
-    margin-top: -1007px;
+    margin-bottom: 280vw;
+    margin-top: -987px;
   }
 
 
@@ -543,7 +543,7 @@ height: 100%;
   align-items: center;
   justify-content: space-between;
   position: relative;
-  top: -900px;
+  top: -980px;
 }
 
 
@@ -593,9 +593,8 @@ height: 100%;
   font-family: futura;
   font-size: 7px;
   position: absolute;
-  bottom: -3075px;
-  left: 115px;
-
+  bottom: -3000px;
+  left: 123px;
 }
 
 
