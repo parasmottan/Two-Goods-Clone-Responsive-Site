@@ -406,19 +406,18 @@ height: 100%;
     align-items: center;
     padding: 5vw 3vw;
     justify-content: space-between;
-    margin-top: 720px;
+    margin-top: 781px;
     flex-direction: column;
   }
 
 
   #page2 .elem {
-
     height: 100vh;
     width: 100%;
     /* background-color: cadetblue; */
     overflow: hidden;
-    margin-bottom: 242vw;
-    margin-top: -1027px;
+    margin-bottom: 301vw;
+    margin-top: -958px;
   }
 
 
@@ -496,11 +495,8 @@ height: 100%;
       }
       
       #icons{
-      
-      padding: 15px;
-      border-radius: 50px;
-      background-color: #F7F7F7;
-      
+        margin-right: -28px;
+        margin-top: 11px;
       }
 
 #nav #twogood2{
@@ -511,14 +507,14 @@ height: 40px;
 }
 
 #page3{
-margin-top: -614px;
-min-height:65vh;
-width: 100%;
-position: relative;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-flex-wrap: wrap;
+  margin-top: -646px;
+  min-height: 65vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 
 }
 
@@ -550,13 +546,13 @@ height: 100%;
 #DivTxt{
   font-family: futura;
   text-transform: uppercase;
-  font-size: 32px;
-  width: 102%;
-  line-height: 7.5vw;
+  font-size: 22px;
+  width: 88%;
+  line-height: 6.5vw;
   padding: 0px 1px;
   position: absolute;
-  left: -1px;
-  top: -53px;
+  left: 18px;
+  top: 11px;
   text-align: center;
   
 }
@@ -565,11 +561,12 @@ height: 100%;
   font-family: havifont;
   width: 93%;
   line-height: 4.5vw;
-  margin-top: 4vw;
+  margin-top: 29vw;
   position: absolute;
-  top: 62px;
+  top: 5px;
   left: 14px;
   text-align: center;
+  font-size: 12px;
 }
 #Onclickcomponents {
  
@@ -588,6 +585,18 @@ height: 100%;
   font-size: 10.5vw;
   text-align: justify;
   line-height: 12.5vw;
+}
+
+.footer{
+  font-family: futura;
+  font-size: 7px;
+  position: absolute;
+  
+  bottom: -2700px;
+  left: 93px;
+
+
+
 }
 
 
