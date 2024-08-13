@@ -238,25 +238,34 @@ cursorAnimation();
 
 
 
-// gsap.from(".child img", {
-//   transform: "translateY(20%)",
-//   // delay:4,
-//   duration:3,
-//   opacity: 0,
-//     stagger:2,
-//   scrollTrigger: {
-//     trigger: "#page3",
-//     scroller:"#main",
-//     start: "top 200% ",
-//     end: "top -5%",
-//     markers:true,
-//     scrub: 2,
+gsap.from(".child img", {
+  transform: "translateY(20%)",
+  // delay: 4,
+  duration: 3,
+  opacity: 0,
+  stagger: 2,
+  scrollTrigger: {
+    trigger: "#page3",
+    scroller: "#main",
+    start: "top 200%",
+    end: "top -5%",
+    markers: true,
+    scrub: 2,
+  }
+});
 
-//   },
+
+gsap.from("#nav", {
+  opacity: 0,
+  transform: "translateY(-50%)",
+  duration:1,
+scrub:2,
 
 
 
-// })
+})
+
+
 
 
 let timeline = gsap.timeline({ paused: true, reversed: true });
