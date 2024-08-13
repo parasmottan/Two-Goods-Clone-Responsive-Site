@@ -249,7 +249,7 @@ gsap.from(".child img", {
     scroller: "#main",
     start: "top 200%",
     end: "top -5%",
-    markers: true,
+    // markers: true,
     scrub: 2,
   }
 });
